@@ -47,17 +47,6 @@ namespace Hasher_Smasher
             }
             else
                 MessageBox.Show("Password / Input String cannot be empty or wrong");
-
-            //else
-            //    MessageBox.Show("Secret Key empty, please input the secret key");
-
-            //else if ())
-            //    stringtoencrypt = tbinput.Text;
-
-            //else if (string.IsNullOrEmpty(tbinput.Text))
-            //    MessageBox.Show("Input box is empty");
-
-            //if (!(string.IsNullOrEmpty(tbkeyinput.Text))) 
         }
 
         private void Btclearall_Click(object sender, EventArgs e)
@@ -74,24 +63,6 @@ namespace Hasher_Smasher
                 stringtodecrypt = tboutput.Text;
                 tbinput.Text = mycode.Decrypt(stringtodecrypt, inputkey);
             }
-
-            //if (!(string.IsNullOrEmpty(tbkeyinput.Text)))
-            //    inputkey = tbkeyinput.Text;
-
-                //else
-                //    MessageBox.Show("Secret Key empty, please input the secret key");
-
-                //if (mycode.Compare(inputkey) == false)
-                //    MessageBox.Show("Secret Key different from database");
-
-                //if (!(string.IsNullOrEmpty(tboutput.Text)))
-                //    stringtoencrypt = tboutput.Text;
-
-                //else
-                //    MessageBox.Show("Output box is empty");
-
-                //if (!(string.IsNullOrEmpty(tbkeyinput.Text)))
-                //    tbinput.Text = mycode.Decrypt(stringtoencrypt, inputkey);
         }
 
         private void Btcopyinput_Click(object sender, EventArgs e)
