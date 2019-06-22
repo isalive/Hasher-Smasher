@@ -28,3 +28,4 @@ Notes :
 - Supports various special charactes for the string you want to encrypt/decrypt. 
 - If you change anything in the encrypted string and try to decrypt it, the programm will just crash.
 - The button "Clear All" clears all text boxes. 
+- You can click "Encrypt" as many times as you will, you will still decrypt whatever you entered. 
